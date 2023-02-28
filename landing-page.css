@@ -1,0 +1,159 @@
+body{
+    /* display: flex; */
+    font-family: 'Shantell Sans', cursive;
+    
+}
+.header, .inHead{
+    background-color: black;
+    display: flex;
+}
+.leftLogo{
+    /* justify-content: flex-end; */
+    /* flex-basis: 94px; */
+    align-self: flex-start;
+    /* border: 2px solid red; */
+}
+.leftLogo img{
+    padding: 4px;
+    width: 165px;
+}
+.leftLogo div{
+    font-size: 24px;
+    color: #F9FAF8;
+    text-align: center;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 4px;
+    /* border: 2px solid green; */
+}
+.right li{
+    justify-content: right;
+    display: inline-block;
+}
+.right li a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    /* border: 2px solid violet; */
+    padding: 0px;
+    margin: 9px;
+    /* justify-content: space-evenly; */
+
+}
+.inHead{
+    display: block;
+    display: flex;
+    height: 395px;
+    /* border: 2px solid yellow; */
+    justify-content: space-evenly;
+    flex: 1;
+    background: url(middle1.png);
+    background-size:cover;
+    /* width: 524px; */
+}
+.inHead li a{
+    /* height: 89px; */
+    /* border: 2px solid red; */
+    padding: 13px;
+    margin: 34px;
+    color: rgb(233, 24, 24);
+}
+.inHead li a:hover{
+    color: #929296;
+}
+.inHead .Plot{
+    font-family: 'Shantell Sans', cursive;
+    font-weight: bolder;
+    list-style-type: none;
+    /* justify-content: flex-start; */
+    align-self: flex-start;
+    /* border: 2px solid salmon; */
+    font-size: 48px;
+    padding: 8px;
+    text-align: left;
+    width: 455px;
+    color: white;
+    order: 1;
+    /* text-decoration: none; */
+}
+.About{
+    font-family: 'Shantell Sans', cursive;
+    font-weight: bold;
+    list-style-type: none;
+    /* border: 2px solid brown; */
+    padding: 13px;
+    text-align: left;
+    align-self: flex-start;
+    font-size: 18px;
+    color: white;
+    width: 455px;
+    order: 1;
+    /* text-decoration: none; */
+    /* clear: left; */
+}
+section {
+    background-color: #202021;
+    display: flex;
+    
+}
+section h3{
+    /* border: 2px solid brown; */
+    justify-content: center;
+    align-self: center;
+    padding: 6px;
+    font-family: 'Shantell Sans', cursive;
+    color: white;
+    /* text-align: center; */
+}
+.random{
+    display: flex;
+    /* border: 2px solid red; */
+    flex-direction: row;
+}
+.random li{
+    display: inline-block;
+}
+.random img{
+    /* justify-content: space-evenly;
+    flex-direction: row; */
+    justify-content: space-evenly;
+    height: 360px;
+    /* border: 2px solid rgb(247, 241, 235); */
+    margin: 50px;
+    width: 190px;
+}
+.random div{
+    font-family: 'Shantell Sans', cursive;
+    text-align: center;
+    color: white;
+}
+article{
+    display: block;
+    flex-direction: column;
+    /* border: 2px solid blueviolet; */
+    background-color: #313030;
+    color: white;
+    /* margin: 11px; */
+    padding: 11px;
+}
+footer{
+    display: flex;
+    
+    background-color: #525252;
+    color: white;
+}
+.become{
+    flex-direction: row;
+    justify-content: center;
+    padding: 13px;
+}
+.btn{
+    border-radius: 7px;
+    align-self: center;
+    margin: 33px;
+}
+.btn:hover{
+    background-color: rgb(173, 177, 179);
+}
